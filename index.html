@@ -1,16 +1,37 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Conectando el archivo css aqui-->
+    <link rel="stylesheet" href="assets/estilos.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Panal</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!--Conectando el archivo css a html-->
+    
   </head>
   <body>
-   <div>
-    <h1>Este es un proyecto Panal
+   <div class="contenedor-formulario">
+        <div class="formulario">
+            <h2>Registro</h2>
+            <form action="registro.php" method="POST">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="apellido" placeholder="Apellido">
+                <input type="text" name="correo" placeholder="Correo">
+                <input type="text" name="usuario" placeholder="Usuario">
+                <input type="password" name="contraseña" placeholder="Contraseña">
+                <input type="submit" value="Registrar">
+            </form>
+        </div>
+    
+        <div class="Contenedor-logos">
+          <img id ="logos" src="./assets/img/fondos/logos.png" alt="" srcset="">
 
-    </h1>
+        </div>
+
+
+        
    </div>
 
 
