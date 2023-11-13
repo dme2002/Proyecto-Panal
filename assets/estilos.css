@@ -1,8 +1,49 @@
 body {
   /*Colocando imagen de fondo*/
-  background-image: url('./img/fondos/FONDO2.jpg');
+  background-image: url("./img/fondos/FONDO2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#contenedor-titulo {
+  background-color: #d9d9d9;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#logo-usuario > img {
+  background-color: #d9d9d9;
+  /*Haciendo la imagen mas pequeña*/
+  width: 150px;
+
+  border-radius: 50%;
+}
+
+#contenedor-botones{
+  background-color: #d9d9d9;
+  width:40%;
+  /*Centrando el div*/
+  /*Alineando los botones*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 40%;
+  margin-left: 28rem;
+}
+
+
+
+
+
