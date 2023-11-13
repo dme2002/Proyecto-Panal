@@ -14,6 +14,11 @@ body {
   padding: 0 20px;
 }
 
+.contenedor-logo{
+  background-color: #fff;
+  
+}
+
 #contenedor-titulo {
   background-color: #d9d9d9;
   width: 40%;
@@ -41,6 +46,53 @@ body {
   margin-top: 20px;
   margin-right: 40%;
   margin-left: 28rem;
+}
+
+#calendario{
+
+  background-color:#d9d9d9 ;
+  width: 10%;
+  height: 15%;
+  margin-right: 30%;
+  margin-left: 97rem;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10%;
+
+}
+
+
+#contenedor-tabla{
+  background-color: #d9d9d9;
+  margin-top: 0px;
+  width:50%;
+  margin-right: 40%;
+  margin-left: 28rem;
+  
+}
+
+#proyecto{
+  background-color: white;
+
+}
+
+#carpeta{
+  /*Haciendo mas pequeña la imagen*/
+  width: 50px;
+}
+
+.contenedor-opciones {
+  background-color: #d9d9d9;
+  width: 5%;
+  margin-left: 1rem;
+  flex-shrink: 0; /* Evita que el contenedor se reduzca automáticamente */
+  display: flex;
+  flex-direction: column; /* Muestra los elementos en forma de columna */
+  margin-top: -30rem; /* Ajusta el margen superior según sea necesario */
+ row-gap: 20px;
+
 }
 
 
