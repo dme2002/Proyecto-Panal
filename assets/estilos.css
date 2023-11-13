@@ -14,9 +14,8 @@ body {
   padding: 0 20px;
 }
 
-.contenedor-logo{
+.contenedor-logo {
   background-color: #fff;
-  
 }
 
 #contenedor-titulo {
@@ -35,9 +34,9 @@ body {
   border-radius: 50%;
 }
 
-#contenedor-botones{
+#contenedor-botones {
   background-color: #d9d9d9;
-  width:40%;
+  width: 40%;
   /*Centrando el div*/
   /*Alineando los botones*/
   display: flex;
@@ -48,9 +47,8 @@ body {
   margin-left: 28rem;
 }
 
-#calendario{
-
-  background-color:#d9d9d9 ;
+#calendario {
+  background-color: #d9d9d9;
   width: 10%;
   height: 15%;
   margin-right: 30%;
@@ -60,25 +58,21 @@ body {
   justify-content: center;
   display: flex;
   border-radius: 10%;
-
 }
 
-
-#contenedor-tabla{
+#contenedor-tabla {
   background-color: #d9d9d9;
   margin-top: 0px;
-  width:50%;
+  width: 50%;
   margin-right: 40%;
   margin-left: 28rem;
-  
 }
 
-#proyecto{
+#proyecto {
   background-color: white;
-
 }
 
-#carpeta{
+#carpeta {
   /*Haciendo mas pequeña la imagen*/
   width: 50px;
 }
@@ -91,11 +85,93 @@ body {
   display: flex;
   flex-direction: column; /* Muestra los elementos en forma de columna */
   margin-top: -30rem; /* Ajusta el margen superior según sea necesario */
- row-gap: 20px;
-
+  row-gap: 20px;
 }
 
 
 
 
+#modalUsuario {
+  
+  margin-left: 80rem; /* Ajusta la distancia del modal con respecto al logo usuario */
+  width: 20%;
+  margin-top: -22px;
+ 
+}
 
+
+#modalUsuario .modal-content {
+  align-items: center;
+  justify-content: center;  
+  background-color: rgba(179, 188, 71, 0.5); /* Cambia el color del modal según tus preferencias */
+
+
+}
+
+
+
+#logo-usuario.activo > img {
+  /* Estilos para el estado activo (modal mostrándose) */
+  background-color: #B3BC47CC; /* Cambia el color según tus preferencias */
+  /*Haciendo qe la imagen se vea mas clara simulando que esta encima*/
+  opacity: 2;
+  /*que la imagen tome mas color*/
+  
+  /*Haciendo la imagen mas pequeña*/
+
+
+}
+
+#modalUsuario .modal-content p {
+   color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100px;
+
+
+
+}
+
+.opcion{
+  cursor: pointer;
+}
+
+
+#modalNuevoProyecto .modal-content {
+  /* Establece la imagen de fondo y ajusta las propiedades de presentación */
+  background-image: url("./img/fondos/FONDO2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Añade opacidad al fondo si deseas */
+  
+}
+
+/* Ajusta los estilos según tus preferencias */
+#modalNuevoProyecto .modal-header,
+#modalNuevoProyecto .modal-body,
+#modalNuevoProyecto .modal-footer {
+  background-color: transparent; /* Fondo transparente para que la imagen sea visible */
+}
+
+#exampleModalLabel{
+  color: white;
+}
+
+
+.btn-primary,.btn-secondary{
+  background-color:#d9d9d9 ;
+  color: black;
+
+}
+
+.form-control{
+  background-color:#d9d9d9 ;
+  color:black;
+  font-weight: 700;
+}
+
+#logo-usuario{
+  cursor: pointer;
+}
