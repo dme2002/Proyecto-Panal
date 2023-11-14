@@ -48,7 +48,7 @@ function mostrarModalUsuario() {
 
   function mostrarModalConfiguracion(){
     var modalConfiguracion = new bootstrap.Modal(
-      document.getElementById("configuracionModal")
+      document.getElementById("preprocesadoresModal")
     );
 
     // Mostrar la modal

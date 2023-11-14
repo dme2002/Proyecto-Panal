@@ -89,9 +89,10 @@ body {
   border-radius: 50%;
 }
 
-#encabezado{
+.encabezado{
   display: flex;
   gap: 90px;
+
 
 }
 
@@ -123,5 +124,25 @@ body {
   height: 15rem;
   width: 100%;
   /*Poniendole espaciado en los bordes derecho e izquierdo*/
-  
+
+}
+
+
+.modal-header{
+  background-color: #C2BA71;
+
+}
+
+.modal-content{
+  background-color: #d9d9d9;
+  background-image: url('./img/fondos/nuevo\ proyecto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#preprocesadoresModal{
+  color: white;
+
 }
