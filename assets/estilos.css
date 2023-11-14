@@ -14,9 +14,7 @@ body {
   padding: 0 20px;
 }
 
-.contenedor-logo {
-  background-color: #fff;
-}
+
 
 #contenedor-titulo {
   background-color: #d9d9d9;
@@ -50,14 +48,15 @@ body {
 #calendario {
   background-color: #d9d9d9;
   width: 10%;
-  height: 15%;
+  height: 28%;
   margin-right: 30%;
   margin-left: 97rem;
   margin-top: 20px;
   align-items: center;
   justify-content: center;
   display: flex;
-  border-radius: 10%;
+  cursor: pointer;
+  
 }
 
 #contenedor-tabla {
@@ -226,3 +225,17 @@ body {
   font-size: 50px;
   color:#B3BC47CC;
 }
+
+.fa-calendar-days {
+  font-size: 70px;
+  color: #FBAF88;
+  background: linear-gradient(45deg, #FFD7B2, #FFC3A0);
+  border-radius: 50%;
+  padding: 10px; /* Ajusta el espacio alrededor del ícono según sea necesario */
+}
+
+#logo-panal-proyectos{
+  width: 110px;
+  
+}
+
