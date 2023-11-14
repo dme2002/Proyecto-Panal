@@ -1,3 +1,10 @@
+
+document.getElementById('contenedor-tabla').style.display = 'block'
+document.getElementById('contenedor-carpetas').style.display = 'none'
+
+
+
+
 function mostrarModalUsuario() {
     const logoUsuario = document.getElementById('logo-usuario');
     const modalUsuario = new bootstrap.Modal(document.getElementById('modalUsuario'));
@@ -28,4 +35,22 @@ function mostrarModalUsuario() {
 
       // Mostrar la modal
       modalNuevoProyecto.show();
+  }
+
+
+  function MostrarContenidoProyecto(){
+    document.getElementById('contenedor-tabla').style.display = 'none';
+    document.getElementById('contenedor-carpetas').style.display = 'block';
+    
+
+  }
+
+
+  function mostrarModalConfiguracion(){
+    var modalConfiguracion = new bootstrap.Modal(
+      document.getElementById("configuracionModal")
+    );
+
+    // Mostrar la modal
+    modalConfiguracion.show();
   }

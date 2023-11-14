@@ -78,15 +78,36 @@ body {
 }
 
 .contenedor-opciones {
+  position: fixed;
+  top: 20px; /* Ajusta la posición vertical según sea necesario */
+  left: 20px; /* Ajusta la posición horizontal según sea necesario */
   background-color: #d9d9d9;
-  width: 5%;
-  margin-left: 1rem;
-  flex-shrink: 0; /* Evita que el contenedor se reduzca automáticamente */
+  width: 10%;
   display: flex;
-  flex-direction: column; /* Muestra los elementos en forma de columna */
-  margin-top: -30rem; /* Ajusta el margen superior según sea necesario */
+  flex-direction: column;
   row-gap: 20px;
+  margin-top: 15rem;
 }
+
+/* Añade un borde al contenedor de opciones para mejorar la visibilidad */
+.contenedor-opciones {
+  border: 2px solid #555;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Añade estilo a las opciones */
+.opcion {
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Estilo para la carpeta */
+.carpeta {
+  width: 50px;
+}
+
 
 
 
@@ -174,4 +195,30 @@ body {
 
 #logo-usuario{
   cursor: pointer;
+}
+
+#proyecto{
+  cursor: pointer;
+}
+
+
+.contenedor-table{
+  background-color: #d9d9d9;
+  margin-top: 0px;
+  width: 50%;
+  margin-right: 40%;
+  margin-left: 28rem;
+ 
+}
+
+#nombre-carpeta{
+  background-color: #d9d9d9;
+  display: flex;
+  
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 40%;
+  margin-left: 28rem;
+
+ 
 }
