@@ -53,13 +53,15 @@ body {
 #logo-panal{
   width:110px;
   border-radius: 30%;
+  margin-left: 50px;
 }
 
 .contenedor-codificadores{
   display: flex;
   gap: 150px;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 60px;
+  
   }
 
 
@@ -69,9 +71,7 @@ body {
   display: flex;
   justify-content: space-between;
   height: 50px;
-  width:28rem
-  
-
+  width:28rem;
 }
 
 #logo-HTML{
@@ -100,15 +100,23 @@ body {
   display: flex;
   gap: 27rem;
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 30px;
+
   
   
 }
 
-#texto-HTML, #texto-CSS, #texto-JS{
-  width: 260%;
+ #texto-JS{
+  width: 290%;
   background-color: #d9d9d9;
+
   
+
+}
+
+#texto-HTML, #texto-CSS{
+  width: 350%;
+  background-color: #d9d9d9;
 
 }
 
