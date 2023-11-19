@@ -34,15 +34,22 @@ body {
 
 #contenedor-botones {
   background-color: #d9d9d9;
-  width: 40%;
+  width: 20%;
   /*Centrando el div*/
   /*Alineando los botones*/
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
+  gap: 50px;
+  font-size: 20px;
   margin-top: 20px;
   margin-right: 40%;
   margin-left: 28rem;
+  height: 50px;
+  padding: 15px;
+}
+
+.icono{
+  cursor: pointer;
 }
 
 #calendario {
@@ -56,6 +63,7 @@ body {
   justify-content: center;
   display: flex;
   cursor: pointer;
+
   
 }
 
