@@ -247,3 +247,9 @@ body {
   
 }
 
+#logo-panal-proyectos-nuevo{
+  width: 110px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rem;
+}
